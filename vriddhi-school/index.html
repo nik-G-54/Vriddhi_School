@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vriddhi School · Play Group to Class 1 &amp; Day Care · Raj Nagar Extension, Ghaziabad</title>
+<meta name="description" content="Vriddhi School — a warm, safe school inside River Heights Society, Raj Nagar Extension, Ghaziabad. Play Group, Nursery, LKG, UKG, Class 1 and Day Care (Mon–Sat, 8 am–8 pm).">
+<meta name="theme-color" content="#FFC93C">
+<meta property="og:title" content="Vriddhi School — Where little ones grow, every single day">
+<meta property="og:description" content="Play Group to Class 1 and Day Care, inside River Heights Society, Raj Nagar Extension, Ghaziabad.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='22' fill='%23FFC93C'/%3E%3Cpath d='M24 37V22' stroke='%232B2D42' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M24 27c-7.5 0-11.5-4-11.5-10.5 7.5 0 11.5 4 11.5 10.5z' fill='%233E9E6B'/%3E%3Cpath d='M24 22.5c0-6.5 4-10.5 11.5-10.5 0 6.5-4 10.5-11.5 10.5z' fill='%237BD3A0'/%3E%3C/svg%3E">
+<script>
+  /* runs before paint: enables animations and skips the intro on repeat visits */
+  document.documentElement.classList.add('js');
+  try { if (sessionStorage.getItem('vr-intro') === '1' || matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('no-intro'); } catch (e) {}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Fredoka:wght@500;600;700&amp;family=Nunito:wght@400;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+
+<!-- ============ SVG sprite: original mascots + craft props ============ -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="g-white" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".65" stop-color="#F3EBE2"/><stop offset="1" stop-color="#DCCEC0"/></radialGradient>
+    <radialGradient id="g-pink" cx=".4" cy=".35" r=".8"><stop offset="0" stop-color="#FFD1DA"/><stop offset="1" stop-color="#F28FA8"/></radialGradient>
+    <radialGradient id="g-yellow" cx=".36" cy=".3" r=".85"><stop offset="0" stop-color="#FFF0A8"/><stop offset=".55" stop-color="#FFCB3D"/><stop offset="1" stop-color="#E7A01C"/></radialGradient>
+    <radialGradient id="g-grey" cx=".36" cy=".3" r=".85"><stop offset="0" stop-color="#DDE4F7"/><stop offset=".6" stop-color="#A9B6E0"/><stop offset="1" stop-color="#8091C6"/></radialGradient>
+    <radialGradient id="g-orange" cx=".38" cy=".32" r=".85"><stop offset="0" stop-color="#FFC27E"/><stop offset=".6" stop-color="#FF8F3F"/><stop offset="1" stop-color="#DE6A20"/></radialGradient>
+    <radialGradient id="g-lilac" cx=".36" cy=".3" r=".85"><stop offset="0" stop-color="#E6DAFF"/><stop offset=".6" stop-color="#AE92F3"/><stop offset="1" stop-color="#8768D8"/></radialGradient>
+    <radialGradient id="g-cream" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#FFFBEA"/><stop offset="1" stop-color="#F3DCA8"/></radialGradient>
+    <radialGradient id="g-brown" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#C99B78"/><stop offset="1" stop-color="#8A5C40"/></radialGradient>
+    <radialGradient id="g-skin1" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#FBD9BC"/><stop offset="1" stop-color="#E2A57C"/></radialGradient>
+    <radialGradient id="g-skin2" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#D9A27A"/><stop offset="1" stop-color="#A86B45"/></radialGradient>
+    <radialGradient id="g-skin3" cx=".38" cy=".3" r=".8"><stop offset="0" stop-color="#B07A55"/><stop offset="1" stop-color="#7A4C30"/></radialGradient>
+  </defs>
+
+  <!-- Bunny -->
+  <symbol id="m-bunny" viewBox="0 0 200 200">
+    <ellipse cx="70" cy="58" rx="20" ry="47" transform="rotate(-12 70 58)" fill="url(#g-white)"/>
+    <ellipse cx="71" cy="62" rx="10" ry="32" transform="rotate(-12 71 62)" fill="url(#g-pink)"/>
+    <ellipse cx="130" cy="58" rx="20" ry="47" transform="rotate(12 130 58)" fill="url(#g-white)"/>
+    <ellipse cx="129" cy="62" rx="10" ry="32" transform="rotate(12 129 62)" fill="url(#g-pink)"/>
+    <circle cx="100" cy="124" r="62" fill="url(#g-white)"/>
+    <ellipse cx="76" cy="94" rx="22" ry="11" transform="rotate(-24 76 94)" fill="#fff" opacity=".85"/>
+    <ellipse cx="78" cy="124" rx="8" ry="10" fill="#2B2D42"/><circle cx="81" cy="120" r="3" fill="#fff"/>
+    <ellipse cx="122" cy="124" rx="8" ry="10" fill="#2B2D42"/><circle cx="125" cy="120" r="3" fill="#fff"/>
+    <ellipse cx="64" cy="146" rx="11" ry="7" fill="#FF9DB0" opacity=".75"/><ellipse cx="136" cy="146" rx="11" ry="7" fill="#FF9DB0" opacity=".75"/>
+    <path d="M93 138h14q-7 9-14 0z" fill="#F57C99"/>
+    <path d="M100 143v6M92 150q8 6 16 0" stroke="#2B2D42" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Elephant -->
+  <symbol id="m-elephant" viewBox="0 0 200 200">
+    <circle cx="44" cy="106" r="42" fill="url(#g-grey)"/><circle cx="48" cy="108" r="27" fill="url(#g-pink)" opacity=".85"/>
+    <circle cx="156" cy="106" r="42" fill="url(#g-grey)"/><circle cx="152" cy="108" r="27" fill="url(#g-pink)" opacity=".85"/>
+    <circle cx="100" cy="104" r="58" fill="url(#g-grey)"/>
+    <path d="M100 128c-2 20 0 38 14 46 10 6 22-2 18-12-3-7-12-6-14 0" fill="none" stroke="#97A6D6" stroke-width="20" stroke-linecap="round"/>
+    <ellipse cx="80" cy="76" rx="20" ry="10" transform="rotate(-24 80 76)" fill="#fff" opacity=".6"/>
+    <ellipse cx="80" cy="104" rx="7" ry="9" fill="#2B2D42"/><circle cx="83" cy="100" r="2.6" fill="#fff"/>
+    <ellipse cx="120" cy="104" rx="7" ry="9" fill="#2B2D42"/><circle cx="123" cy="100" r="2.6" fill="#fff"/>
+    <ellipse cx="68" cy="126" rx="10" ry="6" fill="#FF9DB0" opacity=".7"/><ellipse cx="132" cy="126" rx="10" ry="6" fill="#FF9DB0" opacity=".7"/>
+    <path d="M92 48q8-14 16 0" stroke="#7C8CC0" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- Giraffe -->
+  <symbol id="m-giraffe" viewBox="0 0 200 200">
+    <path d="M80 52 74 24M120 52 126 24" stroke="#E7A01C" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="73" cy="22" r="10" fill="url(#g-brown)"/><circle cx="127" cy="22" r="10" fill="url(#g-brown)"/>
+    <ellipse cx="50" cy="72" rx="20" ry="11" transform="rotate(-24 50 72)" fill="url(#g-yellow)"/>
+    <ellipse cx="150" cy="72" rx="20" ry="11" transform="rotate(24 150 72)" fill="url(#g-yellow)"/>
+    <ellipse cx="100" cy="102" rx="56" ry="60" fill="url(#g-yellow)"/>
+    <ellipse cx="70" cy="74" rx="11" ry="8" fill="#E0923A" opacity=".85"/><ellipse cx="132" cy="80" rx="12" ry="9" fill="#E0923A" opacity=".85"/>
+    <ellipse cx="62" cy="112" rx="8" ry="10" fill="#E0923A" opacity=".85"/><ellipse cx="140" cy="118" rx="9" ry="7" fill="#E0923A" opacity=".85"/>
+    <ellipse cx="80" cy="66" rx="16" ry="8" transform="rotate(-20 80 66)" fill="#fff" opacity=".55"/>
+    <ellipse cx="100" cy="136" rx="38" ry="26" fill="url(#g-cream)"/>
+    <ellipse cx="90" cy="130" rx="3.5" ry="5" fill="#8A5C40"/><ellipse cx="110" cy="130" rx="3.5" ry="5" fill="#8A5C40"/>
+    <path d="M90 144q10 7 20 0" stroke="#2B2D42" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="80" cy="100" rx="7" ry="9" fill="#2B2D42"/><circle cx="83" cy="96" r="2.6" fill="#fff"/>
+    <ellipse cx="120" cy="100" rx="7" ry="9" fill="#2B2D42"/><circle cx="123" cy="96" r="2.6" fill="#fff"/>
+    <ellipse cx="62" cy="128" rx="9" ry="6" fill="#FF9DB0" opacity=".6"/><ellipse cx="138" cy="128" rx="9" ry="6" fill="#FF9DB0" opacity=".6"/>
+  </symbol>
+
+  <!-- Owl -->
+  <symbol id="m-owl" viewBox="0 0 200 200">
+    <path d="M52 72 60 32 86 58z" fill="#9C7EE6" stroke="#9C7EE6" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M148 72 140 32 114 58z" fill="#9C7EE6" stroke="#9C7EE6" stroke-width="10" stroke-linejoin="round"/>
+    <circle cx="100" cy="114" r="64" fill="url(#g-lilac)"/>
+    <ellipse cx="100" cy="150" rx="36" ry="28" fill="#F3ECFF"/>
+    <path d="M80 144q10 7 20 0q10 7 20 0M86 158q7 5 14 0q7 5 14 0" stroke="#C9B6F2" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="74" cy="104" r="25" fill="#fff"/><circle cx="126" cy="104" r="25" fill="#fff"/>
+    <circle cx="77" cy="106" r="12" fill="#2B2D42"/><circle cx="81" cy="101" r="4" fill="#fff"/>
+    <circle cx="123" cy="106" r="12" fill="#2B2D42"/><circle cx="127" cy="101" r="4" fill="#fff"/>
+    <path d="M92 124h16l-8 13z" fill="#FFB43C" stroke="#FFB43C" stroke-width="6" stroke-linejoin="round"/>
+    <ellipse cx="72" cy="70" rx="18" ry="8" transform="rotate(-22 72 70)" fill="#fff" opacity=".5"/>
+  </symbol>
+
+  <!-- Lion -->
+  <symbol id="m-lion" viewBox="0 0 200 200">
+    <g fill="url(#g-orange)">
+      <circle cx="100" cy="108" r="64"/>
+      <circle cx="164" cy="108" r="24"/><circle cx="155" cy="140" r="24"/><circle cx="132" cy="163" r="24"/><circle cx="100" cy="172" r="24"/><circle cx="68" cy="163" r="24"/><circle cx="45" cy="140" r="24"/><circle cx="36" cy="108" r="24"/><circle cx="45" cy="76" r="24"/><circle cx="68" cy="53" r="24"/><circle cx="100" cy="44" r="24"/><circle cx="132" cy="53" r="24"/><circle cx="155" cy="76" r="24"/>
+    </g>
+    <circle cx="66" cy="66" r="14" fill="url(#g-yellow)"/><circle cx="134" cy="66" r="14" fill="url(#g-yellow)"/>
+    <circle cx="100" cy="112" r="48" fill="url(#g-yellow)"/>
+    <ellipse cx="82" cy="86" rx="16" ry="8" transform="rotate(-22 82 86)" fill="#fff" opacity=".55"/>
+    <ellipse cx="100" cy="132" rx="24" ry="17" fill="url(#g-cream)"/>
+    <path d="M92 122h16q-8 10-16 0z" fill="#8A5C40"/>
+    <path d="M100 128v6M92 138q8 6 16 0" stroke="#2B2D42" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <ellipse cx="82" cy="106" rx="6.5" ry="8.5" fill="#2B2D42"/><circle cx="84.5" cy="102" r="2.4" fill="#fff"/>
+    <ellipse cx="118" cy="106" rx="6.5" ry="8.5" fill="#2B2D42"/><circle cx="120.5" cy="102" r="2.4" fill="#fff"/>
+    <ellipse cx="70" cy="124" rx="8" ry="5" fill="#FF9DB0" opacity=".7"/><ellipse cx="130" cy="124" rx="8" ry="5" fill="#FF9DB0" opacity=".7"/>
+  </symbol>
+
+  <!-- Chick -->
+  <symbol id="m-chick" viewBox="0 0 200 200">
+    <path d="M96 58q-6-18 8-24M104 58q6-16 20-14" stroke="#E7A01C" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="40" cy="134" rx="20" ry="13" transform="rotate(-30 40 134)" fill="#F4B526"/>
+    <ellipse cx="160" cy="134" rx="20" ry="13" transform="rotate(30 160 134)" fill="#F4B526"/>
+    <circle cx="100" cy="118" r="62" fill="url(#g-yellow)"/>
+    <ellipse cx="78" cy="88" rx="22" ry="10" transform="rotate(-24 78 88)" fill="#fff" opacity=".7"/>
+    <ellipse cx="80" cy="110" rx="7" ry="9" fill="#2B2D42"/><circle cx="83" cy="106" r="2.6" fill="#fff"/>
+    <ellipse cx="120" cy="110" rx="7" ry="9" fill="#2B2D42"/><circle cx="123" cy="106" r="2.6" fill="#fff"/>
+    <path d="M89 126 100 117 111 126 100 136z" fill="#FF8F3C" stroke="#FF8F3C" stroke-width="4" stroke-linejoin="round"/>
+    <ellipse cx="66" cy="132" rx="10" ry="6" fill="#FF9DB0" opacity=".7"/><ellipse cx="134" cy="132" rx="10" ry="6" fill="#FF9DB0" opacity=".7"/>
+  </symbol>
+
+  <!-- Craft props -->
+  <symbol id="p-crayon" viewBox="0 0 140 34">
+    <path d="M14 6h96a6 6 0 0 1 6 6v10a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V12a6 6 0 0 1 6-6z" fill="currentColor"/>
+    <path d="M116 9l18 8-18 8z" fill="currentColor" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M30 6v22M96 6v22" stroke="#fff" stroke-width="4" opacity=".55"/>
+    <path d="M40 12h46" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+  </symbol>
+  <symbol id="p-cloud" viewBox="0 0 120 60">
+    <g fill="currentColor"><circle cx="34" cy="36" r="18"/><circle cx="62" cy="26" r="24"/><circle cx="90" cy="38" r="16"/><rect x="18" y="36" width="88" height="18" rx="9"/></g>
+  </symbol>
+  <symbol id="p-star" viewBox="0 0 48 48">
+    <path d="M24 5l5.6 11.4 12.6 1.8-9.1 8.9 2.1 12.5L24 33.7l-11.2 5.9 2.1-12.5-9.1-8.9 12.6-1.8z" fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="p-spark" viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></symbol>
+  <symbol id="p-heart" viewBox="0 0 48 48"><path d="M24 42S6 31 6 17a9.5 9.5 0 0 1 18-4.2A9.5 9.5 0 0 1 42 17c0 14-18 25-18 25z" fill="currentColor"/></symbol>
+  <symbol id="p-plane" viewBox="0 0 80 60">
+    <path d="M4 30 76 6 52 54 38 38z" fill="#fff"/><path d="M38 38 76 6 30 34z" fill="#E6EEF8"/><path d="M38 38l-4 14 10-8" fill="#C9D6E8"/>
+  </symbol>
+  <symbol id="p-cube" viewBox="0 0 100 100">
+    <path d="M50 8 90 28 50 48 10 28z" fill="currentColor"/><path d="M50 8 90 28 50 48 10 28z" fill="#fff" opacity=".35"/>
+    <path d="M10 28 50 48v44L10 72z" fill="currentColor"/>
+    <path d="M90 28 50 48v44l40-20z" fill="currentColor"/><path d="M90 28 50 48v44l40-20z" fill="#000" opacity=".16"/>
+  </symbol>
+  <symbol id="p-flower" viewBox="0 0 40 40">
+    <g fill="currentColor"><circle cx="20" cy="9" r="7"/><circle cx="31" cy="17" r="7"/><circle cx="27" cy="30" r="7"/><circle cx="13" cy="30" r="7"/><circle cx="9" cy="17" r="7"/></g><circle cx="20" cy="21" r="6" fill="#FFC93C"/>
+  </symbol>
+  <symbol id="p-splat" viewBox="0 0 60 60"><path d="M30 6c6 0 6 8 12 8s10-4 12 2-4 8-2 14 8 8 4 14-10 0-14 6-4 8-12 8-6-8-12-8-10 6-14 0 2-10-2-14-8-8-4-12 10 0 12-6S24 6 30 6z" fill="currentColor"/></symbol>
+</svg>
+
+<!-- ============ Intro ============ -->
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-in">
+    <svg class="intro-sun" viewBox="0 0 120 120"><g class="intro-rays" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"><path d="M60 6v14M60 100v14M6 60h14M100 60h14M22 22l10 10M88 88l10 10M22 98l10-10M88 32l10-10"/></g><circle cx="60" cy="60" r="30" fill="#fff"/><path d="M48 58q4-5 8 0M64 58q4-5 8 0M50 68q10 8 20 0" stroke="#FFB020" stroke-width="4" fill="none" stroke-linecap="round"/></svg>
+    <p class="intro-txt">Good morning!</p>
+  </div>
+</div>
+
+<!-- ============ Fixed helpers ============ -->
+<div class="pbar" aria-hidden="true"></div>
+<div class="dial" aria-hidden="true">
+  <div class="dial-time" data-clock>7:00 am</div>
+  <div class="dial-track"><div class="dial-fill"></div>
+    <div class="dial-knob"><svg class="i sun-i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg><svg class="i moon-i" viewBox="0 0 24 24"><path d="M19 14.5A7.5 7.5 0 0 1 9.5 5a7.5 7.5 0 1 0 9.5 9.5z"/></svg></div>
+  </div>
+  <svg class="dial-sprout" viewBox="0 0 34 40"><path d="M17 38V18" stroke="#2E7D57" stroke-width="3" stroke-linecap="round"/><path d="M17 22c-8 0-12-4-12-11 8 0 12 4 12 11z" fill="#4CAF7A"/><path d="M17 18c0-7 4-11 12-11 0 7-4 11-12 11z" fill="#7BD3A0"/></svg>
+</div>
+
+<!-- ============ Header ============ -->
+<header class="hdr" data-hdr>
+  <div class="wrap hdr-in">
+    <a class="brand" href="#home" aria-label="Vriddhi School — back to top">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#FFC93C"/><path d="M24 37V22" stroke="#2B2D42" stroke-width="3" stroke-linecap="round"/><path d="M24 27c-7.5 0-11.5-4-11.5-10.5 7.5 0 11.5 4 11.5 10.5z" fill="#3E9E6B"/><path d="M24 22.5c0-6.5 4-10.5 11.5-10.5 0 6.5-4 10.5-11.5 10.5z" fill="#7BD3A0"/></svg>
+      <span><b>Vriddhi School</b><small>Raj Nagar Extension · Ghaziabad</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#programs">Programs</a><a href="#learn">How we learn</a><a href="#daycare">Day Care</a><a href="#gallery">Gallery</a><a href="#visit">Visit us</a>
+    </nav>
+    <a class="btn btn-p btn-sm hcta" href="#visit">Admissions open</a>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mnav" data-menu-open>
+      <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" aria-hidden="true" data-mnav>
+  <button class="burger x" type="button" aria-label="Close menu" data-menu-close><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <a class="ml" href="#programs">Programs</a>
+  <a class="ml" href="#learn">How we learn</a>
+  <a class="ml" href="#daycare">Day Care</a>
+  <a class="ml" href="#gallery">Gallery</a>
+  <a class="ml" href="#visit">Visit us</a>
+  <a class="btn btn-p ml-cta" href="tel:+918010114585">Call 80101 14585</a>
+  <svg class="sticker mnav-m" aria-hidden="true"><use href="#m-bunny"/></svg>
+</div>
+
+<main>
+
+<!-- ============ 7:30 am · Sunrise — HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-sky" aria-hidden="true">
+    <svg class="cl cl1" data-speed="-.12"><use href="#p-cloud"/></svg>
+    <svg class="cl cl2" data-speed="-.22"><use href="#p-cloud"/></svg>
+    <svg class="cl cl3" data-speed="-.08"><use href="#p-cloud"/></svg>
+    <svg class="spk spk1"><use href="#p-spark"/></svg>
+    <svg class="spk spk2"><use href="#p-spark"/></svg>
+    <svg class="plane" data-speed="-.3"><use href="#p-plane"/></svg>
+  </div>
+
+  <div class="wrap hero-g">
+    <div class="hero-copy">
+      <div class="note n-yellow" data-reveal="pop"><span class="tape"></span><b>7:30 am</b><span>Good morning!</span></div>
+      <h1 class="h1 htitle" aria-label="Where little ones grow, every single day.">
+        <span class="hl" aria-hidden="true"><span>Where little</span></span>
+        <span class="hl" aria-hidden="true"><span>ones <em class="grow">grow<svg class="scrib" viewBox="0 0 220 30" preserveAspectRatio="none"><path pathLength="1" d="M6 20C40 8 90 6 130 12s60 10 84 2" /></svg></em>,</span></span>
+        <span class="hl" aria-hidden="true"><span>every single day.</span></span>
+      </h1>
+      <p class="lead hfade">A warm, safe school right inside River Heights Society — where learning feels like play, and every child is known by name.</p>
+      <div class="cta hfade">
+        <a class="btn btn-p" href="#visit">Book a visit <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-w" href="tel:+918010114585"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h2.6l1.4 4.1-2 1.4a12 12 0 0 0 6.4 6.4l1.4-2 4.1 1.4v2.6a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></svg>80101 14585</a>
+      </div>
+      <ul class="tags hfade" aria-label="Programs">
+        <li style="--t:#FFD3CC">Play Group</li><li style="--t:#BDEBE6">Nursery</li><li style="--t:#CDE7F7">LKG &amp; UKG</li><li style="--t:#E4DAFF">Class 1</li><li style="--t:#FFE27A">Day Care</li>
+      </ul>
+    </div>
+
+    <div class="stage" data-stage>
+      <div class="stage-blob" aria-hidden="true"></div>
+      <div class="stage-fallback" aria-hidden="true">
+        <svg class="sticker fb-bunny"><use href="#m-bunny"/></svg>
+        <svg class="fb-cube c1"><use href="#p-cube"/></svg>
+        <svg class="fb-cube c2"><use href="#p-cube"/></svg>
+        <svg class="fb-star"><use href="#p-star"/></svg>
+      </div>
+      <canvas aria-label="Floating 3D toys: alphabet blocks, a bunny, a beach ball and a stacking-ring toy" role="img"></canvas>
+      <div class="rosette" aria-label="Rated 4.8 out of 5 by 26 parents on Google">
+        <svg viewBox="0 0 120 120" aria-hidden="true"><path d="M60 6l9 8 12-3 4 11 12 3-1 12 9 9-7 10 4 11-11 5-1 12-12 1-5 11-11-4-10 7-9-9-12 1-3-12-11-4 4-11-7-10 9-9-1-12 12-3 4-11 12 3z" fill="#FFC93C"/><circle cx="60" cy="60" r="38" fill="#fff"/></svg>
+        <b>4.8</b><small>Google</small><span>26 parent reviews</span>
+      </div>
+      <p class="tap-hint hand" aria-hidden="true">tap the toys!<svg viewBox="0 0 60 40"><path d="M4 8c18-6 34 2 40 22M44 30l-8-2M44 30l2-8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></p>
+    </div>
+  </div>
+
+  <div class="hills" aria-hidden="true">
+    <svg class="hl3" data-speed=".06" viewBox="0 0 1440 220" preserveAspectRatio="none"><path d="M0 120C160 60 320 50 480 90s300 70 480 30 360-60 480-30V220H0Z" fill="#A9E2BC"/></svg>
+    <svg class="hl2" data-speed=".03" viewBox="0 0 1440 220" preserveAspectRatio="none"><path d="M0 150C200 110 380 100 600 130s420 50 620 14 200-20 220-14V220H0Z" fill="#7FD3A0"/></svg>
+    <div class="flowers">
+      <svg style="--c:#FF7A6B;left:6%;bottom:56px"><use href="#p-flower"/></svg>
+      <svg style="--c:#A78BFA;left:14%;bottom:44px"><use href="#p-flower"/></svg>
+      <svg style="--c:#5AB9EA;left:82%;bottom:52px"><use href="#p-flower"/></svg>
+      <svg style="--c:#FF7A6B;left:91%;bottom:40px"><use href="#p-flower"/></svg>
+    </div>
+    <svg class="hl1" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0 70C180 30 380 26 600 54s400 50 620 22 180-20 220-16V120H0Z" fill="#FFF7EA"/></svg>
+  </div>
+</section>
+
+<!-- washi tape marquee -->
+<div class="marquee" aria-hidden="true">
+  <div class="mq-track">
+    <span>Play</span><svg><use href="#p-star"/></svg><span>Learn</span><svg><use href="#p-heart"/></svg><span>Create</span><svg><use href="#p-spark"/></svg><span>Explore</span><svg><use href="#p-star"/></svg><span>Grow</span><svg><use href="#p-heart"/></svg><span>Make friends</span><svg><use href="#p-spark"/></svg>
+    <span>Play</span><svg><use href="#p-star"/></svg><span>Learn</span><svg><use href="#p-heart"/></svg><span>Create</span><svg><use href="#p-spark"/></svg><span>Explore</span><svg><use href="#p-star"/></svg><span>Grow</span><svg><use href="#p-heart"/></svg><span>Make friends</span><svg><use href="#p-spark"/></svg>
+  </div>
+</div>
+
+<!-- ============ 8:30 am · Walking in ============ -->
+<section class="sec paper" id="safe" style="--bg:#FFF7EA">
+  <svg class="deco crayon-a" data-speed="-.1" aria-hidden="true" style="color:#5AB9EA"><use href="#p-crayon"/></svg>
+  <svg class="deco splat-a" data-speed=".08" aria-hidden="true" style="color:#FFD3CC"><use href="#p-splat"/></svg>
+  <div class="wrap two">
+    <div>
+      <div class="note n-pink" data-reveal="pop"><span class="tape"></span><b>8:30 am</b><span>Walking in</span></div>
+      <h2 class="h2" data-reveal="up">Safe, happy and <span class="mark">just a short walk</span> away.</h2>
+      <p class="lead" data-reveal="up" style="--d:100ms">Vriddhi sits right inside River Heights Society. No busy roads, no long rides — just a few steps from your door to a classroom full of friends.</p>
+      <ul class="feats">
+        <li class="feat" data-reveal="up" style="--d:150ms"><span class="bub" style="--b:#FFE27A"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5 5 6v5.5c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg></span><span><b>Inside a gated society</b><span>A calm, protected campus your child already knows.</span></span></li>
+        <li class="feat" data-reveal="up" style="--d:230ms"><span class="bub" style="--b:#CDE7F7"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/></svg></span><span><b>Home is right around the corner</b><span>Walk your little one to school, every single day.</span></span></li>
+        <li class="feat" data-reveal="up" style="--d:310ms"><span class="bub" style="--b:#BDEBE6"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9" r="2.3"/><path d="M15.5 14.2A4.5 4.5 0 0 1 21 18.5"/></svg></span><span><b>Friends from the neighbourhood</b><span>Classmates who are also next-door playmates.</span></span></li>
+      </ul>
+    </div>
+
+    <div class="mapcard" data-reveal="unfold" style="--d:120ms;rotate:2deg">
+      <span class="tape t-blue"></span><span class="tape t-r"></span>
+      <svg class="map" viewBox="0 0 520 420" role="img" aria-label="A hand-drawn map: a dotted path leads from a home, through the society garden gate, to Vriddhi School">
+        <path class="road" pathLength="1" d="M110 300C170 370 230 230 272 300S392 350 420 284" fill="none" stroke="#FFE7A6" stroke-width="30" stroke-linecap="round"/>
+        <path class="trail" pathLength="1" d="M110 300C170 370 230 230 272 300S392 350 420 284" fill="none" stroke="#FF7A6B" stroke-width="5" stroke-linecap="round" stroke-dasharray="0.012 0.018"/>
+        <g class="mp-tree"><rect x="186" y="200" width="10" height="44" rx="5" fill="#B87A4B"/><circle cx="191" cy="190" r="26" fill="#4CAF7A"/><circle cx="182" cy="182" r="9" fill="#7BD3A0"/></g>
+        <g class="mp-tree"><rect x="334" y="250" width="9" height="36" rx="4.5" fill="#B87A4B"/><circle cx="338" cy="240" r="20" fill="#63C08A"/></g>
+        <g transform="translate(60 196)"><path d="M0 46 50 6 100 46z" fill="#A78BFA" stroke="#A78BFA" stroke-width="12" stroke-linejoin="round"/><rect x="10" y="40" width="80" height="70" rx="14" fill="#FFC93C"/><rect x="38" y="70" width="24" height="40" rx="12" fill="#fff"/><circle cx="74" cy="62" r="8" fill="#fff"/></g>
+        <text x="110" y="344" class="map-lbl">home</text>
+        <g transform="translate(250 216)"><path d="M0 84V40a30 30 0 0 1 60 0v44" fill="none" stroke="#A78BFA" stroke-width="9" stroke-linecap="round"/><circle cx="0" cy="40" r="6" fill="#FF7A6B"/><circle cx="60" cy="40" r="6" fill="#FFC93C"/><circle cx="30" cy="10" r="6" fill="#4ECDC4"/></g>
+        <g transform="translate(360 150)"><path d="M-6 54 58 4 122 54z" fill="#5AB9EA" stroke="#5AB9EA" stroke-width="12" stroke-linejoin="round"/><rect x="2" y="48" width="112" height="92" rx="18" fill="#FF8E7E"/><rect x="44" y="94" width="30" height="46" rx="15" fill="#FFC93C"/><circle cx="26" cy="80" r="10" fill="#fff"/><circle cx="92" cy="80" r="10" fill="#fff"/><path d="M58 4V-26" stroke="#2B2D42" stroke-width="4" stroke-linecap="round"/><path d="M60-24l22 6-22 8z" fill="#4CAF7A"/></g>
+        <text x="420" y="330" class="map-lbl">Vriddhi!</text>
+        <g class="walker"><use href="#p-heart" x="-15" y="-15" width="30" height="30" style="color:#FF7A6B"/></g>
+      </svg>
+      <svg class="sticker peek" aria-hidden="true"><use href="#m-giraffe"/></svg>
+    </div>
+  </div>
+</section>
+
+<div class="edge" style="--from:#FFF7EA;--a:#F0E1FA;--b:#C6E4F7;--c:#DCEFFB" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path style="fill:var(--a)" d="M0 50C200 10 380 20 560 46S920 96 1120 60 1360 14 1440 30V120H0Z"/><path style="fill:var(--b)" d="M0 74C240 40 420 44 640 70S1040 104 1240 70 1400 52 1440 60V120H0Z"/><path style="fill:var(--c)" d="M0 92C180 70 360 66 560 86S960 116 1160 92 1380 76 1440 84V120H0Z"/></svg></div>
+
+<!-- ============ 9:30 am · Learning time — PROGRAMS ============ -->
+<section class="sec dots-bg" id="programs" style="--bg:#DCEFFB">
+  <svg class="deco star-a" data-speed="-.15" aria-hidden="true" style="color:#FFC93C"><use href="#p-star"/></svg>
+  <svg class="deco heart-a" data-speed=".1" aria-hidden="true" style="color:#FF9DB0"><use href="#p-heart"/></svg>
+  <div class="wrap">
+    <div class="center">
+      <div class="note n-blue" data-reveal="pop"><span class="tape"></span><b>9:30 am</b><span>Learning time</span></div>
+      <h2 class="h2" data-reveal="up">A little program for <span class="mark m-yellow">every stage</span>.</h2>
+      <p class="lead" data-reveal="up" style="--d:100ms">From the first goodbye at the gate to a confident first-grader — each stage is planned around how young children really learn.</p>
+    </div>
+    <div class="pcards">
+      <div class="pc-w" data-reveal="unfold"><article class="pcard tiltable" data-tilt style="--paper:#FFE9A6;--r0:-2.5deg">
+        <span class="tape"></span><svg class="sticker pm" aria-hidden="true"><use href="#m-chick"/></svg>
+        <p class="hand pk">first steps</p><h3>Play Group</h3>
+        <p>A gentle first taste of school — songs, colours, toys and brand-new friends.</p>
+      </article></div>
+      <div class="pc-w" data-reveal="unfold" style="--d:90ms"><article class="pcard tiltable" data-tilt style="--paper:#C8F0E2;--r0:2deg">
+        <span class="tape t-pink"></span><svg class="sticker pm" aria-hidden="true"><use href="#m-bunny"/></svg>
+        <p class="hand pk">growing words</p><h3>Nursery</h3>
+        <p>Talking, listening and little-hand skills through stories, rhymes and play.</p>
+      </article></div>
+      <div class="pc-w" data-reveal="unfold" style="--d:180ms"><article class="pcard tiltable" data-tilt style="--paper:#FFFFFF;--r0:-1deg">
+        <span class="tape t-blue"></span><svg class="sticker pm" aria-hidden="true"><use href="#m-elephant"/></svg>
+        <p class="hand pk">letters &amp; numbers</p><h3>LKG</h3>
+        <p>Early reading and counting, learned through games and everyday activities.</p>
+      </article></div>
+      <div class="pc-w" data-reveal="unfold" style="--d:120ms"><article class="pcard tiltable" data-tilt style="--paper:#E6DCFF;--r0:2.5deg">
+        <span class="tape"></span><svg class="sticker pm" aria-hidden="true"><use href="#m-owl"/></svg>
+        <p class="hand pk">ready for school</p><h3>UKG</h3>
+        <p>The confidence, habits and basics children need for a happy start in Class 1.</p>
+      </article></div>
+      <div class="pc-w" data-reveal="unfold" style="--d:210ms"><article class="pcard tiltable" data-tilt style="--paper:#FFD9CF;--r0:-2deg">
+        <span class="tape t-pink"></span><svg class="sticker pm" aria-hidden="true"><use href="#m-lion"/></svg>
+        <p class="hand pk">big-school start</p><h3>Class 1</h3>
+        <p>A caring first year of primary — with more classes planned as our children grow.</p>
+      </article></div>
+    </div>
+    <p class="swipe-hint hand" aria-hidden="true">swipe to see all →</p>
+  </div>
+</section>
+
+<div class="edge" style="--from:#DCEFFB;--a:#FFE9A6;--b:#BDEBD7;--c:#EAF8F1" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path style="fill:var(--a)" d="M0 40C220 90 420 90 640 56S1060 0 1260 34 1400 70 1440 64V120H0Z"/><path style="fill:var(--b)" d="M0 70C160 40 300 30 470 50s330 50 520 34 330-40 450-24V120H0Z"/><path style="fill:var(--c)" d="M0 92C180 70 360 66 560 86S960 116 1160 92 1380 76 1440 84V120H0Z"/></svg></div>
+
+<!-- ============ 11:00 am · Activity time — HOW WE LEARN ============ -->
+<section class="sec grid-bg" id="learn" style="--bg:#EAF8F1">
+  <div class="wrap split">
+    <div class="stick">
+      <div class="note n-green" data-reveal="pop"><span class="tape"></span><b>11:00 am</b><span>Activity time</span></div>
+      <h2 class="h2" data-reveal="up">We learn by <span class="mark m-pink">doing</span>, not by rote.</h2>
+      <p class="lead" data-reveal="up" style="--d:100ms">Busy hands, curious minds and a teacher who knows your child well — that's the difference parents notice first.</p>
+      <a class="btn btn-y" href="#visit" data-reveal="up" style="--d:180ms">See a class in action <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="cube-scene" aria-hidden="true">
+        <div class="cube"><span class="f f1">A</span><span class="f f2">B</span><span class="f f3">C</span><span class="f f4">1</span><span class="f f5">2</span><span class="f f6">3</span></div>
+        <div class="cube cube-b"><span class="f f1">अ</span><span class="f f2">आ</span><span class="f f3">क</span><span class="f f4">ख</span><span class="f f5">★</span><span class="f f6">♥</span></div>
+        <div class="cube-shadow"></div>
+      </div>
+    </div>
+    <div class="sheets">
+      <article class="sheet" data-reveal="up">
+        <span class="holes"></span>
+        <span class="bub big" style="--b:#FFE27A"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="12" width="7" height="7" rx="1.6"/><rect x="13" y="12" width="7" height="7" rx="1.6"/><rect x="8.5" y="4.5" width="7" height="7" rx="1.6"/></svg></span>
+        <div><h3 class="h3">Practical, playful learning</h3><p>Ideas come alive with activities, toys and real objects — not by memorising from a page.</p></div>
+        <svg class="sheet-doodle" viewBox="0 0 60 40" aria-hidden="true"><path d="M6 30c8-14 16-14 22 0s14 14 26-6" fill="none" stroke="#FF7A6B" stroke-width="3" stroke-linecap="round"/></svg>
+      </article>
+      <article class="sheet" data-reveal="up" style="--d:60ms">
+        <span class="holes"></span>
+        <span class="bub big" style="--b:#CDE7F7"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0"/><circle cx="17" cy="9" r="2.3"/><path d="M15.5 14.2A4.5 4.5 0 0 1 21 18.5"/></svg></span>
+        <div><h3 class="h3">Small groups, real attention</h3><p>About 15 children for every teacher, so each child is noticed, encouraged and supported.</p></div>
+        <svg class="sheet-doodle" viewBox="0 0 60 40" aria-hidden="true"><path d="M30 6l5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2z" fill="none" stroke="#5AB9EA" stroke-width="3" stroke-linejoin="round"/></svg>
+      </article>
+      <article class="sheet" data-reveal="up" style="--d:60ms">
+        <span class="holes"></span>
+        <span class="bub big" style="--b:#FFD3CC"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17.5V6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H8z"/><path d="M8 9h8M8 12.5h5"/></svg></span>
+        <div><h3 class="h3">English, spoken naturally</h3><p>English-medium classrooms where children pick up the language easily, every day.</p></div>
+        <svg class="sheet-doodle" viewBox="0 0 60 40" aria-hidden="true"><text x="6" y="30" class="doodle-abc">abc</text></svg>
+      </article>
+      <article class="sheet" data-reveal="up" style="--d:60ms">
+        <span class="holes"></span>
+        <span class="bub big" style="--b:#E4DAFF"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.8 10.2c3 .4 5.6 2.3 7 5M12 3.5c-.8 3 0 6.3 2.5 8.5s5.6 2.4 6.7 2"/></svg></span>
+        <div><h3 class="h3">Room to move and play</h3><p>Spacious, cheerful rooms full of toys — because little bodies learn best when they can move.</p></div>
+        <svg class="sheet-doodle" viewBox="0 0 60 40" aria-hidden="true"><path d="M8 32c6-20 14-24 22-24s16 4 22 24" fill="none" stroke="#4ECDC4" stroke-width="3" stroke-linecap="round"/><path d="M14 32c4-12 10-16 16-16s12 4 16 16" fill="none" stroke="#FFC93C" stroke-width="3" stroke-linecap="round"/></svg>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="edge" style="--from:#EAF8F1;--a:#FFD9CF;--b:#D9CCFF;--c:#EEE6FF" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path style="fill:var(--a)" d="M0 50C200 10 380 20 560 46S920 96 1120 60 1360 14 1440 30V120H0Z"/><path style="fill:var(--b)" d="M0 74C240 40 420 44 640 70S1040 104 1240 70 1400 52 1440 60V120H0Z"/><path style="fill:var(--c)" d="M0 92C180 70 360 66 560 86S960 116 1160 92 1380 76 1440 84V120H0Z"/></svg></div>
+
+<!-- ============ 12:00 pm · Together time — BELONG ============ -->
+<section class="sec paper belong" id="belong" style="--bg:#EEE6FF">
+  <div class="wrap two">
+    <div class="belong-art" data-reveal="pop">
+      <svg viewBox="0 0 480 440" role="img" aria-label="Five children of different backgrounds holding hands in a circle around a heart, under a paper rainbow; one child uses a wheelchair">
+        <g class="rainbow" fill="none" stroke-linecap="round">
+          <path d="M60 300a180 180 0 0 1 360 0" stroke="#FF9DB0" stroke-width="26"/>
+          <path d="M92 300a148 148 0 0 1 296 0" stroke="#FFE27A" stroke-width="26"/>
+          <path d="M124 300a116 116 0 0 1 232 0" stroke="#9BE3C9" stroke-width="26"/>
+          <path d="M156 300a84 84 0 0 1 168 0" stroke="#A9DBF5" stroke-width="26"/>
+        </g>
+        <use href="#p-cloud" x="20" y="262" width="120" height="60" style="color:#fff"/>
+        <use href="#p-cloud" x="340" y="262" width="120" height="60" style="color:#fff"/>
+        <ellipse cx="240" cy="404" rx="190" ry="20" fill="#D6C8FB"/>
+        <g class="kids">
+          <g transform="translate(90 330)"><path d="M-8 54v20M8 54v20" stroke="#2B2D42" stroke-width="5" stroke-linecap="round"/><rect x="-20" y="14" width="40" height="46" rx="18" fill="#A78BFA"/><path d="M20 30h36" stroke="url(#g-skin1)" stroke-width="7" stroke-linecap="round"/><circle r="21" fill="url(#g-skin1)"/><path d="M-21-2a21 21 0 0 1 42 0c-6-9-14-11-21-11s-15 2-21 11z" fill="#B5651D"/><circle cx="-7" cy="2" r="2.4" fill="#2B2D42"/><circle cx="7" cy="2" r="2.4" fill="#2B2D42"/><path d="M-6 9q6 5 12 0" stroke="#2B2D42" stroke-width="2.4" fill="none" stroke-linecap="round"/></g>
+          <g transform="translate(166 340)"><path d="M-8 54v20M8 54v20" stroke="#2B2D42" stroke-width="5" stroke-linecap="round"/><rect x="-20" y="14" width="40" height="46" rx="18" fill="#5AB9EA"/><path d="M20 30h36" stroke="url(#g-skin2)" stroke-width="7" stroke-linecap="round"/><circle cx="-22" cy="-8" r="9" fill="#2A1E1E"/><circle cx="22" cy="-8" r="9" fill="#2A1E1E"/><circle r="21" fill="url(#g-skin2)"/><path d="M-21 0a21 21 0 0 1 42 0c-8-6-14-12-21-12s-13 6-21 12z" fill="#2A1E1E"/><circle cx="-7" cy="3" r="2.4" fill="#2B2D42"/><circle cx="7" cy="3" r="2.4" fill="#2B2D42"/><path d="M-6 10q6 5 12 0" stroke="#2B2D42" stroke-width="2.4" fill="none" stroke-linecap="round"/></g>
+          <g transform="translate(240 344)"><rect x="-20" y="14" width="40" height="38" rx="16" fill="#FF8E7E"/><circle cx="16" cy="56" r="17" fill="none" stroke="#2B2D42" stroke-width="4"/><circle cx="16" cy="56" r="3.5" fill="#2B2D42"/><path d="M-20 52h30" stroke="#2B2D42" stroke-width="4" stroke-linecap="round"/><path d="M20 28h36" stroke="url(#g-skin1)" stroke-width="7" stroke-linecap="round"/><circle r="21" fill="url(#g-skin1)"/><path d="M-21-2a21 21 0 0 1 42 0c-6-9-14-11-21-11s-15 2-21 11z" fill="#3A2A2A"/><circle cx="-7" cy="2" r="2.4" fill="#2B2D42"/><circle cx="7" cy="2" r="2.4" fill="#2B2D42"/><path d="M-6 9q6 5 12 0" stroke="#2B2D42" stroke-width="2.4" fill="none" stroke-linecap="round"/></g>
+          <g transform="translate(314 340)"><path d="M-8 54v20M8 54v20" stroke="#2B2D42" stroke-width="5" stroke-linecap="round"/><rect x="-20" y="14" width="40" height="46" rx="18" fill="#FFC93C"/><path d="M20 30h36" stroke="url(#g-skin3)" stroke-width="7" stroke-linecap="round"/><circle r="21" fill="url(#g-skin3)"/><path d="M-21 0a21 21 0 0 1 42 0c-7-6-12-11-21-11s-14 5-21 11z" fill="#1E1414"/><circle cx="-7" cy="3" r="2.4" fill="#2B2D42"/><circle cx="7" cy="3" r="2.4" fill="#2B2D42"/><path d="M-6 10q6 5 12 0" stroke="#2B2D42" stroke-width="2.4" fill="none" stroke-linecap="round"/></g>
+          <g transform="translate(390 330)"><path d="M-8 54v20M8 54v20" stroke="#2B2D42" stroke-width="5" stroke-linecap="round"/><rect x="-20" y="14" width="40" height="46" rx="18" fill="#4ECDC4"/><circle r="21" fill="url(#g-skin2)"/><path d="M-21-2a21 21 0 0 1 42 0c-6-9-14-11-21-11s-15 2-21 11z" fill="#2A1E1E"/><circle cx="-7" cy="2" r="2.4" fill="#2B2D42"/><circle cx="7" cy="2" r="2.4" fill="#2B2D42"/><path d="M-6 9q6 5 12 0" stroke="#2B2D42" stroke-width="2.4" fill="none" stroke-linecap="round"/></g>
+        </g>
+        <g class="b-heart"><use href="#p-heart" x="208" y="176" width="64" height="64" style="color:#FF7A6B"/></g>
+        <use class="b-spk" href="#p-spark" x="70" y="80" width="26" height="26" style="color:#FFC93C"/>
+        <use class="b-spk s2" href="#p-spark" x="404" y="96" width="20" height="20" style="color:#A78BFA"/>
+      </svg>
+    </div>
+    <div>
+      <div class="note n-lilac" data-reveal="pop"><span class="tape"></span><b>12:00 pm</b><span>Together time</span></div>
+      <h2 class="h2 big2" data-reveal="up">Every child <span class="mark m-pink">belongs</span> here.</h2>
+      <p class="lead" data-reveal="up" style="--d:100ms">Vriddhi offers special classes for children who learn differently — so every child gets the care they need, right alongside their friends.</p>
+      <a class="btn btn-p" href="#visit" data-reveal="up" style="--d:180ms">Talk to us about your child <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<div class="edge" style="--from:#EEE6FF;--a:#FFE9A6;--b:#FFC9A8;--c:#FFE6CC" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path style="fill:var(--a)" d="M0 40C220 90 420 90 640 56S1060 0 1260 34 1400 70 1440 64V120H0Z"/><path style="fill:var(--b)" d="M0 70C160 40 300 30 470 50s330 50 520 34 330-40 450-24V120H0Z"/><path style="fill:var(--c)" d="M0 92C180 70 360 66 560 86S960 116 1160 92 1380 76 1440 84V120H0Z"/></svg></div>
+
+<!-- ============ 1:00 pm · Day Care — CLOTHESLINE ============ -->
+<section class="daycare paper" id="daycare" style="--bg:#FFE6CC">
+  <div class="cl-pin" data-pin>
+    <div class="cl-sticky">
+      <div class="wrap cl-head">
+        <div>
+          <div class="note n-orange" data-reveal="pop"><span class="tape"></span><b>1:00 pm</b><span>Day Care</span></div>
+          <h2 class="h2" data-reveal="up">Go to work with <span class="mark m-yellow">peace of mind</span>.</h2>
+          <p class="lead" data-reveal="up" style="--d:100ms">After class, our Day Care keeps your child safe, cared for and happily busy — until you're home.</p>
+        </div>
+        <div class="hours" data-reveal="pop" style="--d:160ms">
+          <span class="bub big" style="--b:#FFE27A"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+          <span><b>Mon – Sat</b><span class="hrs">8:00 am – 8:00 pm</span><span>Closed on Sundays</span></span>
+        </div>
+      </div>
+      <div class="cl-view" data-view>
+        <div class="cl-track" data-track>
+          <svg class="rope" viewBox="0 0 1000 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 14C80 40 160 40 250 22S420 4 500 24 670 42 750 22 920 6 1000 18" fill="none" stroke="#8A5C40" stroke-width="2.5"/></svg>
+          <article class="cl-card" style="--paper:#FFFFFF;--sd:0s"><span class="peg"></span><div class="cl-in"><span class="cl-ic" style="--b:#FFE27A"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18M7 18a5 5 0 0 1 10 0M12 4v4M5.6 9.6 7 11M18.4 9.6 17 11"/></svg></span><p class="hand ct">morning</p><h3>A warm hello</h3><p>A friendly welcome at the door and a calm start to the day.</p></div></article>
+          <article class="cl-card" style="--paper:#DFF4FD;--sd:-1.2s"><span class="peg p2"></span><div class="cl-in"><span class="cl-ic" style="--b:#CDE7F7"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v15H5.5A1.5 1.5 0 0 1 4 17.5zM20 5.5c0-.8-.7-1.5-1.5-1.5H13v15h5.5a1.5 1.5 0 0 0 1.5-1.5z"/></svg></span><p class="hand ct">class time</p><h3>Learning with friends</h3><p>Activities and lessons with their class and teachers.</p></div></article>
+          <article class="cl-card" style="--paper:#FFE0D8;--sd:-2.1s"><span class="peg p3"></span><div class="cl-in"><span class="cl-ic" style="--b:#FFD3CC"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16a8 8 0 0 1-16 0z"/><path d="M9 7c0-1.5 1-1.5 1-3M13 7c0-1.5 1-1.5 1-3"/></svg></span><p class="hand ct">afternoon</p><h3>Lunchtime</h3><p>Children eat together, with a caring adult close by.</p></div></article>
+          <article class="cl-card" style="--paper:#EAE2FF;--sd:-.6s"><span class="peg"></span><div class="cl-in"><span class="cl-ic" style="--b:#E4DAFF"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 14.5A7.5 7.5 0 0 1 9.5 5a7.5 7.5 0 1 0 9.5 9.5z"/></svg></span><p class="hand ct">after lunch</p><h3>Rest &amp; recharge</h3><p>Quiet time to rest, so the afternoon stays happy.</p></div></article>
+          <article class="cl-card" style="--paper:#DDF6EC;--sd:-1.8s"><span class="peg p2"></span><div class="cl-in"><span class="cl-ic" style="--b:#BDEBE6"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.8 10.2c3 .4 5.6 2.3 7 5M12 3.5c-.8 3 0 6.3 2.5 8.5s5.6 2.4 6.7 2"/></svg></span><p class="hand ct">evening</p><h3>Play &amp; activities</h3><p>Games, stories and creative play until it's time to go.</p></div></article>
+          <article class="cl-card" style="--paper:#FFF1C2;--sd:-2.6s"><span class="peg p3"></span><div class="cl-in"><span class="cl-ic" style="--b:#FFE27A"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11 12 4l8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/></svg></span><p class="hand ct">until 8:00 pm</p><h3>Pickup &amp; home</h3><p>Collect your child whenever your day ends, up to 8:00 pm.</p></div></article>
+          <div class="cl-end"><svg class="sticker" aria-hidden="true"><use href="#m-elephant"/></svg><p class="hand">see you tomorrow!</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="edge" style="--from:#FFE6CC;--a:#FFD3CC;--b:#D9B98F;--c:#EBD5B3" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path style="fill:var(--a)" d="M0 50C200 10 380 20 560 46S920 96 1120 60 1360 14 1440 30V120H0Z"/><path style="fill:var(--b)" d="M0 74C240 40 420 44 640 70S1040 104 1240 70 1400 52 1440 60V120H0Z"/><path style="fill:var(--c)" d="M0 92C180 70 360 66 560 86S960 116 1160 92 1380 76 1440 84V120H0Z"/></svg></div>
+
+<!-- ============ 4:00 pm · Playtime — GALLERY ============ -->
+<section class="sec kraft" id="gallery" style="--bg:#EBD5B3">
+  <div class="wrap">
+    <div class="center">
+      <div class="note n-yellow" data-reveal="pop"><span class="tape"></span><b>4:00 pm</b><span>Playtime</span></div>
+      <h2 class="h2" data-reveal="up">A peek inside our day.</h2>
+      <p class="lead" data-reveal="up" style="--d:100ms">Colour, stories, music and a lot of laughter — this is what an ordinary day at Vriddhi looks like.</p>
+    </div>
+    <div class="pols">
+      <div class="pol-w" data-reveal="drop"><figure class="pol tiltable" data-tilt style="--r0:-5deg"><span class="tape"></span>
+        <div class="ph" style="--bg:#FFD9CF"><svg viewBox="0 0 240 180" aria-hidden="true"><use href="#p-splat" x="20" y="18" width="70" height="70" style="color:#FFB4A6"/><use href="#p-splat" x="150" y="96" width="64" height="64" style="color:#C9B6F2"/><use href="#p-crayon" x="40" y="70" width="150" height="36" transform="rotate(-18 115 88)" style="color:#FF7A6B"/><use href="#p-crayon" x="44" y="100" width="150" height="36" transform="rotate(-6 119 118)" style="color:#5AB9EA"/><use href="#p-crayon" x="48" y="128" width="150" height="36" transform="rotate(8 123 146)" style="color:#FFC93C"/></svg></div>
+        <figcaption class="hand">Art &amp; colours</figcaption></figure></div>
+      <div class="pol-w" data-reveal="drop" style="--d:90ms"><figure class="pol tiltable" data-tilt style="--r0:3deg"><span class="tape t-blue"></span>
+        <div class="ph" style="--bg:#FFF0B8"><svg viewBox="0 0 240 180" aria-hidden="true"><path d="M120 120c-24-14-52-16-76-10v-74c24-6 52-4 76 10z" fill="#fff"/><path d="M120 120c24-14 52-16 76-10v-74c-24-6-52-4-76 10z" fill="#FFF8E6"/><path d="M58 56c16-3 32-2 46 4M58 72c16-3 32-2 46 4M136 60c14-6 30-7 46-4M136 76c14-6 30-7 46-4" stroke="#E7CF96" stroke-width="3" fill="none" stroke-linecap="round"/><use href="#m-owl" x="88" y="96" width="70" height="70"/></svg></div>
+        <figcaption class="hand">Story time</figcaption></figure></div>
+      <div class="pol-w" data-reveal="drop" style="--d:180ms"><figure class="pol tiltable" data-tilt style="--r0:-2deg"><span class="tape t-pink"></span>
+        <div class="ph" style="--bg:#D5ECFA"><svg viewBox="0 0 240 180" aria-hidden="true"><use href="#p-cube" x="40" y="80" width="80" height="80" style="color:#FF7A6B"/><use href="#p-cube" x="110" y="80" width="80" height="80" style="color:#4CAF7A"/><use href="#p-cube" x="76" y="22" width="80" height="80" style="color:#FFC93C"/></svg></div>
+        <figcaption class="hand">Building blocks</figcaption></figure></div>
+      <div class="pol-w" data-reveal="drop" style="--d:60ms"><figure class="pol tiltable" data-tilt style="--r0:4deg"><span class="tape"></span>
+        <div class="ph" style="--bg:#E9DFFF"><svg viewBox="0 0 240 180" aria-hidden="true"><path d="M150 118V54l50-10v62" fill="none" stroke="#2B2D42" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M150 68l50-10" stroke="#2B2D42" stroke-width="6" stroke-linecap="round"/><ellipse cx="141" cy="120" rx="12" ry="9" fill="#A78BFA"/><ellipse cx="191" cy="108" rx="12" ry="9" fill="#FF7A6B"/><use href="#m-elephant" x="20" y="44" width="120" height="120"/></svg></div>
+        <figcaption class="hand">Music &amp; movement</figcaption></figure></div>
+      <div class="pol-w" data-reveal="drop" style="--d:150ms"><figure class="pol tiltable" data-tilt style="--r0:-4deg"><span class="tape t-blue"></span>
+        <div class="ph" style="--bg:#D3F2E6"><svg viewBox="0 0 240 180" aria-hidden="true"><circle cx="200" cy="40" r="18" fill="#FFC93C"/><path d="M50 150V60M80 150V60M50 82h30M50 106h30M50 130h30" stroke="#8A5C40" stroke-width="6" stroke-linecap="round"/><path d="M80 60c44 0 56 90 104 90" fill="none" stroke="#FF7A6B" stroke-width="14" stroke-linecap="round"/><path d="M14 156h212" stroke="#4CAF7A" stroke-width="8" stroke-linecap="round"/><use href="#m-chick" x="150" y="104" width="50" height="50"/></svg></div>
+        <figcaption class="hand">Outdoor play</figcaption></figure></div>
+      <div class="pol-w" data-reveal="drop" style="--d:240ms"><figure class="pol tiltable" data-tilt style="--r0:2deg"><span class="tape t-pink"></span>
+        <div class="ph" style="--bg:#FFE4B8"><svg viewBox="0 0 240 180" aria-hidden="true"><path d="M10 36q110 40 220 0" fill="none" stroke="#2B2D42" stroke-width="3"/><path d="M28 44h26l-13 22z" fill="#FF7A6B"/><path d="M70 56h26l-13 22z" fill="#5AB9EA"/><path d="M116 60h26l-13 22z" fill="#4CAF7A"/><path d="M160 54h26l-13 22z" fill="#A78BFA"/><path d="M200 42h26l-13 22z" fill="#FFC93C"/><path d="M84 138h72a36 24 0 0 1-72 0z" fill="#FF7A6B"/><path class="flame" d="M120 128c-10-12 0-28 0-32 8 9 13 20 0 32z" fill="#FFC93C"/></svg></div>
+        <figcaption class="hand">Festivals &amp; celebrations</figcaption></figure></div>
+    </div>
+    <p class="gnote hand">Illustrations for now — the school's own photos will go here.</p>
+  </div>
+</section>
+
+<div class="edge" style="--from:#EBD5B3;--a:#FFC9B8;--b:#F3BFD6;--c:#F6DCEC" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path style="fill:var(--a)" d="M0 40C220 90 420 90 640 56S1060 0 1260 34 1400 70 1440 64V120H0Z"/><path style="fill:var(--b)" d="M0 70C160 40 300 30 470 50s330 50 520 34 330-40 450-24V120H0Z"/><path style="fill:var(--c)" d="M0 92C180 70 360 66 560 86S960 116 1160 92 1380 76 1440 84V120H0Z"/></svg></div>
+
+<!-- ============ 6:30 pm · Pickup stories — VOICES ============ -->
+<section class="sec voices" id="voices">
+  <div class="dusk-sun" data-speed=".18" aria-hidden="true"></div>
+  <div class="wrap vg">
+    <div>
+      <div class="note n-pink" data-reveal="pop"><span class="tape"></span><b>6:30 pm</b><span>Pickup stories</span></div>
+      <h2 class="h2" data-reveal="up">What parents tell us at pickup.</h2>
+      <div class="score" data-reveal="pop" style="--d:120ms">
+        <div class="score-badge"><b>4.8</b><span class="stars" aria-hidden="true"><svg viewBox="0 0 48 48"><use href="#p-star"/></svg><svg viewBox="0 0 48 48"><use href="#p-star"/></svg><svg viewBox="0 0 48 48"><use href="#p-star"/></svg><svg viewBox="0 0 48 48"><use href="#p-star"/></svg><svg viewBox="0 0 48 48"><use href="#p-star"/></svg></span></div>
+        <p><b>Average of 26 Google reviews</b><br>Reviews below are shortened from parents' Google reviews.</p>
+      </div>
+    </div>
+    <div class="bubble-area" data-reveal="up" style="--d:100ms">
+      <svg class="sticker narr" aria-hidden="true"><use href="#m-bunny"/></svg>
+      <div class="bubbles" data-quotes aria-live="polite">
+        <figure class="bubble is-on"><blockquote>My kids are safe and nurtured here. The Day Care means I can go to work without worrying about them.</blockquote><figcaption>Parent of two · Google review</figcaption></figure>
+        <figure class="bubble"><blockquote>The teachers and the principal are supportive and always cooperative. For us, it is the best school in the area.</blockquote><figcaption>Parent · Google review</figcaption></figure>
+        <figure class="bubble"><blockquote>A practical way of learning, not the old rote way. Talented teachers, a spacious place and focused attention on each child.</blockquote><figcaption>Parent · Google review</figcaption></figure>
+        <figure class="bubble"><blockquote>I have seen a real change in my daughter's personality. If you want a safe and happy place for your little one, I recommend it.</blockquote><figcaption>Parent of a girl · Google review</figcaption></figure>
+        <figure class="bubble"><blockquote>The staff are cooperative and the atmosphere is lovely. Activities matter to us, and that is why we chose Vriddhi.</blockquote><figcaption>Parent · Google review</figcaption></figure>
+      </div>
+      <div class="qctl">
+        <button class="rb" type="button" aria-label="Previous review" data-q-prev><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+        <button class="rb" type="button" aria-label="Next review" data-q-next><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        <div class="qdots" data-q-dots></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="edge" style="--from:#F6DCEC;--a:#B9A3E6;--b:#5A5F9C;--c:#1F2747" aria-hidden="true"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path style="fill:var(--a)" d="M0 50C200 10 380 20 560 46S920 96 1120 60 1360 14 1440 30V120H0Z"/><path style="fill:var(--b)" d="M0 74C240 40 420 44 640 70S1040 104 1240 70 1400 52 1440 60V120H0Z"/><path style="fill:var(--c)" d="M0 92C180 70 360 66 560 86S960 116 1160 92 1380 76 1440 84V120H0Z"/></svg></div>
+
+<!-- ============ 8:00 pm · Goodnight — VISIT ============ -->
+<section class="sec night" id="visit">
+  <div class="hang" aria-hidden="true">
+    <span class="hs" style="--x:7%;--l:70px;--s:34px;--d:0s;color:#FFE27A"><svg><use href="#p-star"/></svg></span>
+    <span class="hs" style="--x:19%;--l:130px;--s:24px;--d:-1.4s;color:#FFB4A6"><svg><use href="#p-star"/></svg></span>
+    <span class="hs" style="--x:33%;--l:50px;--s:20px;--d:-2.2s;color:#A9DBF5"><svg><use href="#p-star"/></svg></span>
+    <span class="hs" style="--x:62%;--l:90px;--s:22px;--d:-.8s;color:#FFE27A"><svg><use href="#p-star"/></svg></span>
+    <span class="hs" style="--x:93%;--l:150px;--s:28px;--d:-3s;color:#C9B6F2"><svg><use href="#p-star"/></svg></span>
+    <span class="hs moon-h" style="--x:80%;--l:56px;--s:96px;--d:-1.8s"><svg viewBox="0 0 110 110"><circle cx="55" cy="55" r="46" fill="#FFE7A0"/><circle cx="78" cy="38" r="42" fill="#1F2747"/><circle cx="30" cy="66" r="5" fill="#F2D27A"/><circle cx="44" cy="86" r="3.5" fill="#F2D27A"/></svg></span>
+  </div>
+  <svg class="tw t1" aria-hidden="true"><use href="#p-spark"/></svg><svg class="tw t2" aria-hidden="true"><use href="#p-spark"/></svg><svg class="tw t3" aria-hidden="true"><use href="#p-spark"/></svg><svg class="tw t4" aria-hidden="true"><use href="#p-spark"/></svg>
+
+  <div class="wrap vgrid">
+    <div>
+      <div class="note n-dark" data-reveal="pop"><span class="tape"></span><b>8:00 pm</b><span>Goodnight!</span></div>
+      <h2 class="h2" data-reveal="up">Come see where your child will <span class="mark m-night">grow</span>.</h2>
+      <p class="lead" data-reveal="up" style="--d:100ms">Visit the campus, meet the teachers and ask us anything. Admissions are open.</p>
+      <div class="ways">
+        <a class="way" data-reveal="up" style="--d:150ms" href="https://wa.me/918010114585?text=Hello%20Vriddhi%20School%2C%20I%27d%20like%20to%20book%20a%20visit." target="_blank" rel="noopener"><span class="bub" style="--b:#9BE3C9"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 19.5 6 15.6A8 8 0 1 1 8.6 18z"/><path d="M9.3 9.4c.3 2 2 4 4.2 4.6l1-1.2 1.7.8"/></svg></span><span><small>Chat with us</small><b>WhatsApp</b></span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="way" data-reveal="up" style="--d:230ms" href="tel:+918010114585"><span class="bub" style="--b:#FFE27A"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h2.6l1.4 4.1-2 1.4a12 12 0 0 0 6.4 6.4l1.4-2 4.1 1.4v2.6a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></svg></span><span><small>Call the school</small><b>+91 80101 14585</b></span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="way" data-reveal="up" style="--d:310ms" href="https://www.google.com/maps/search/?api=1&amp;query=Vriddhi+School+River+Heights+Raj+Nagar+Extension+Ghaziabad" target="_blank" rel="noopener"><span class="bub" style="--b:#FFD3CC"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11A6.5 6.5 0 0 1 18.5 10c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg></span><span><small>Find us</small><b>Get directions</b></span><svg class="i go" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <p class="addr" data-reveal="up" style="--d:360ms">Society Campus, River Heights Rd, Sehani Khurd,<br>Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201003<br><b>Mon – Sat · 8:00 am – 8:00 pm</b></p>
+    </div>
+
+    <div class="letter-w" data-reveal="unfold" style="--d:120ms">
+      <form class="letter" data-form novalidate>
+        <div class="stamp" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="#FFC93C"/><path d="M24 37V22" stroke="#2B2D42" stroke-width="3" stroke-linecap="round"/><path d="M24 27c-7.5 0-11.5-4-11.5-10.5 7.5 0 11.5 4 11.5 10.5z" fill="#3E9E6B"/><path d="M24 22.5c0-6.5 4-10.5 11.5-10.5 0 6.5-4 10.5-11.5 10.5z" fill="#7BD3A0"/></svg></div>
+        <div data-form-body>
+          <h3>Book a visit</h3>
+          <p class="sub hand">dear Vriddhi, we'd love to come and say hello…</p>
+          <div class="fld"><label for="f-name">Parent's name</label><input id="f-name" name="name" type="text" autocomplete="name" placeholder="Your name"><p class="err" data-err="name" hidden></p></div>
+          <div class="fld"><label for="f-phone">Mobile number</label><input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile number"><p class="err" data-err="phone" hidden></p></div>
+          <div class="frow">
+            <div class="fld"><label for="f-age">Child's age</label>
+              <select id="f-age" name="age"><option value="">Select age</option><option>Under 2 years</option><option>2–3 years</option><option>3–4 years</option><option>4–5 years</option><option>5–6 years</option><option>6+ years</option></select></div>
+            <div class="fld"><label for="f-prog">Interested in</label>
+              <select id="f-prog" name="prog"><option value="">Choose one</option><option>Play Group</option><option>Nursery</option><option>LKG</option><option>UKG</option><option>Class 1</option><option>Day Care</option></select><p class="err" data-err="prog" hidden></p></div>
+          </div>
+          <button class="btn btn-p wide" type="submit"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 19.5 6 15.6A8 8 0 1 1 8.6 18z"/></svg>Send on WhatsApp</button>
+        </div>
+        <div class="ok" data-form-ok hidden>
+          <svg class="sticker ok-m" aria-hidden="true"><use href="#m-chick"/></svg>
+          <h3>Thank you!</h3>
+          <p>Your message is ready in WhatsApp. If it didn't open, tap below.</p>
+          <a class="btn btn-p" data-wa href="https://wa.me/918010114585" target="_blank" rel="noopener">Open WhatsApp</a>
+          <button class="btn btn-w btn-sm again" type="button" data-again>Send another</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="ftr">
+  <svg class="ftr-edge" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40C200 10 420 10 640 34s440 40 640 16 140-20 160-16V80H0Z" fill="#161D38"/></svg>
+  <div class="wrap">
+    <div class="ftr-g">
+      <div>
+        <a class="brand" href="#home" aria-label="Vriddhi School — back to top">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#FFC93C"/><path d="M24 37V22" stroke="#2B2D42" stroke-width="3" stroke-linecap="round"/><path d="M24 27c-7.5 0-11.5-4-11.5-10.5 7.5 0 11.5 4 11.5 10.5z" fill="#3E9E6B"/><path d="M24 22.5c0-6.5 4-10.5 11.5-10.5 0 6.5-4 10.5-11.5 10.5z" fill="#7BD3A0"/></svg>
+          <span><b>Vriddhi School</b><small>Raj Nagar Extension · Ghaziabad</small></span>
+        </a>
+        <p>Play Group to Class 1, with Day Care — inside River Heights Society, Raj Nagar Extension, Ghaziabad.</p>
+      </div>
+      <nav class="flinks" aria-label="Footer">
+        <a href="#programs">Programs</a><a href="#learn">How we learn</a><a href="#daycare">Day Care</a><a href="#gallery">Gallery</a><a href="#visit">Visit us</a><a href="tel:+918010114585">+91 80101 14585</a>
+      </nav>
+    </div>
+    <p class="copy">© 2026 Vriddhi School. All rights reserved.</p>
+  </div>
+</footer>
+
+<nav class="mbar" aria-label="Quick contact">
+  <a href="tel:+918010114585"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h2.6l1.4 4.1-2 1.4a12 12 0 0 0 6.4 6.4l1.4-2 4.1 1.4v2.6a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/></svg>Call</a>
+  <a href="https://wa.me/918010114585?text=Hello%20Vriddhi%20School%2C%20I%27d%20like%20to%20book%20a%20visit." target="_blank" rel="noopener"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 19.5 6 15.6A8 8 0 1 1 8.6 18z"/></svg>WhatsApp</a>
+  <a class="go" href="#visit"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>Enquire</a>
+</nav>
+
+<script src="js/main.js" defer></script>
+<script type="module" src="js/scene3d.js"></script>
+</body>
+</html>
